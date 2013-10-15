@@ -42,9 +42,9 @@ Based on http://wiki.nginx.org/HttpSecureDownload
   
   A generated URI must have the following format: \<real_path\>/\<md5_hash\>/\<expiration_timestamp\>
  
-  \<expiration_timestamp\> = timestamp converted to hex
-  memcache query key = \<real_path\>
-  fetched value should be equal to \<md5_hash\>
+        <expiration_timestamp> = timestamp converted to hex
+        memcache query key = <real_path>
+        fetched value should be equal to <md5_hash>
   
   Valid url example: <i>http://127.0.0.1:81/news.png/86ff173d4fd1307686d25620eae682dc/525d359c</i>
 
