@@ -71,10 +71,6 @@ static char * ngx_conf_set_path_mode(ngx_conf_t*, ngx_command_t*, void*);
  * Structures
  */
 
-/*
-
- */
-
 typedef struct {
     ngx_flag_t enable;
     ngx_flag_t path_mode;
